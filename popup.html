@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Extension Popup</title>
+  <script src="popup.js" defer></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class= "container">
+    <h1>Amazon Product Price</h1>
+    <div class = "inputElement">
+      <input type="text" id="paramInput" placeholder="Enter new parameter" class="input">
+      <button id="addButton" class = "button">Add Parameter</button>
+    </div>
+    <div class="header">
+      <div style="width: 5px">
+
+      </div>
+      <p class = "productName">Product Name</p>
+      <div class="price">
+       <p>Offer Price</p>
+       <p>Price</p>
+      </div>
+   </div>
+    <div class="productList" id="productList">
+        <div class="product">
+          <button class="deleteButton">
+          
+          </button>
+          <p class = "productName">Product Name</p>
+          <div class="price">
+           <p>Offer Price</p>
+           <p>Price</p>
+          </div>
+        </div>        
+    </div>
+    <div>
+      <button id="refreshButton" class="button">Refresh Data</button>
+    </div>
+    <pre id="result"></pre>
+    </div>
+</body>
+</html>

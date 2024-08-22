@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Amazon price fetcher",
+    "version": "1.0",
+    "description": "An extension that fetches prices of selected products from Amazon",
+    "permissions": ["alarms", "storage", "notifications"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icons/icon.png"
+    },
+    "icons": {
+      "128": "icons/icon.png"
+    }
+  }
+  

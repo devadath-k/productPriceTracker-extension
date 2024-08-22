@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+.container{
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px
+}
+
+.inputElement{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input{
+    width: 100%;
+    padding: 4px;
+    font-size: 14px;
+}
+
+.button{
+    background-color: #25b2ee;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.productList {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    border:none;
+    min-height: 250px;
+    overflow-y: auto;
+}
+
+.product {
+    width: 100%;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 50px;
+    max-height: 50px;
+    overflow:hidden;
+    background-color: aliceblue;
+}
+
+.productContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    justify-content: space-between;
+    height: 30px;
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+}
+
+.productName{
+    width: 50%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* padding: 3px; */
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    font-size: 12px;
+}
+
+.deleteButton{
+    background-color: red;
+    height: 5px;
+    width: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
